@@ -1,0 +1,75 @@
+/*Colors and fonts*/
+body {
+  background: #FFFFFF;
+  color: #393F6F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #393F6F;
+  font-size: 36px;
+  font-weight: 1000;
+}
+
+h2 {
+  color: #393F6F;
+  font-size: 20px;
+  font-weight: 500;
+ }
+
+a {
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  color: #39429F;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #535A96;
+}
+
+/* custom design with class */
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #393F6F;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+.btn-blue:hover {
+  background-color: #535A96;
+  color: white;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  border-radius: 10%;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
